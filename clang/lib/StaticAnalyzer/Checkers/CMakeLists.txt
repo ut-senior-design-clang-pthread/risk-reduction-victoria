@@ -99,6 +99,7 @@ add_clang_library(clangStaticAnalyzerCheckers
   ReturnPointerRangeChecker.cpp
   ReturnUndefChecker.cpp
   ReturnValueChecker.cpp
+  RRChecker.cpp
   RunLoopAutoreleaseLeakChecker.cpp
   SetgidSetuidOrderChecker.cpp
   SimpleStreamChecker.cpp

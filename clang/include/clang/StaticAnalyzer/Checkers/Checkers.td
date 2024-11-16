@@ -615,6 +615,10 @@ def SimpleStreamChecker : Checker<"SimpleStream">,
   HelpText<"Check for misuses of stream APIs">,
   Documentation<HasDocumentation>;
 
+def RRChecker : Checker<"RRChecker">,
+  HelpText<"Checker created for ECE364D Risk Reduction">,
+  Documentation<HasDocumentation>;
+
 } // end "alpha.unix"
 
 //===----------------------------------------------------------------------===//
